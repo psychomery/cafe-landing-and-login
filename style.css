@@ -60,6 +60,16 @@
     url("background3.jpg");*/
 }
 
+.content-section:before {
+		content: '';
+		position: absolute;top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-image: linear-gradient(to bottom right,#FF7174,#000000);
+		opacity: .6; 
+	}
+
 .text-content {
   display: flex;
   flex-direction: column;
