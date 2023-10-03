@@ -48,12 +48,13 @@
   background-size: cover;
   background-position: center;
   color: #fefaf1;
-  background-image: linear-gradient(
+  background-image: url("background3.jpg");
+  /*background-image: linear-gradient(
       to right bottom,
       rgba(0, 0, 0, 0.8) 27%,
       rgba(53, 29, 13, 0.1) 53%
     ),
-    url("background3.jpg");
+    url("background3.jpg");*/
 }
 
 .text-content {
