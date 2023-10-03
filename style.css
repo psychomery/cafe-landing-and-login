@@ -52,23 +52,13 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  /*background-image: linear-gradient(
+ background-image: linear-gradient(
       to right bottom,
       rgba(0, 0, 0, 0.8) 27%,
       rgba(53, 29, 13, 0.1) 53%
     ),
-    url("background3.jpg");*/
+    url("background3.jpg");
 }
-
-.content-section:after {
-		content: '';
-		position: absolute;top: 0;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		background-image: linear-gradient(to bottom right,#FF7174,#000000);
-		opacity: .6; 
-	}
 
 .text-content {
   display: flex;
