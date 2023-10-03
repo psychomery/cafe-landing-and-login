@@ -48,9 +48,8 @@
   background-size: cover;
   background-position: center;
   color: #fefaf1;
-  background: url("background3.jpg") no repeat;
-  background-cover: cover;
-  background-position: center;
+  background: url("background3.jpg") center center no repeat;
+  background-size: cover;
   /*background-image: linear-gradient(
       to right bottom,
       rgba(0, 0, 0, 0.8) 27%,
