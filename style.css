@@ -1,0 +1,215 @@
+/* text-colors: #fefaf1 
+btn colors: #3a1703 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo {
+  font-family: "Dancing Script";
+  font-weight: 700;
+  font-size: 30px;
+  color: #fefaf1;
+  align-self: center;
+  margin-right: 210px;
+}
+
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .logo-img {
+  height: 100px;
+} */
+
+.nav {
+  display: flex;
+  gap: 30px;
+  margin: 20px 60px;
+}
+
+.nav-item {
+  color: #fefaf1;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.nav-item:hover {
+  font-weight: 600;
+}
+
+/* ******************** */
+/* CONTENT SECTION */
+
+.content-section {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  min-height: 90vh;
+  /* background: url("background3.jpg") no-repeat; */
+  background-size: cover;
+  background-position: center;
+  color: #fefaf1;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, 0.8) 27%,
+      rgba(53, 29, 13, 0.1) 53%
+    ),
+    url("../background3.jpg");
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  /* justify-self: center; */
+  /* align-self: center; */
+  padding-top: 170px;
+  padding-right: 120px;
+  padding-left: 60px;
+}
+
+.text-heading {
+  font-size: 50px;
+  margin-bottom: 30px;
+  letter-spacing: 0, 9px;
+  font-weight: 500;
+}
+
+.text-textbox {
+  font-size: 14px;
+  line-height: 1.8;
+  margin-bottom: 40px;
+}
+
+.text-learn {
+  display: inline-block;
+  text-decoration: none;
+  color: #fefaf1;
+  font-size: 16px;
+  padding-top: 0px;
+  letter-spacing: 1.4;
+  font-weight: 600;
+}
+
+.text-learn:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+/* FORM */
+
+.wrapper {
+  width: 450px;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
+  color: #fefaf1;
+  border-radius: 10px;
+  padding: 50px 40px;
+  margin: 80px 60px;
+}
+
+.wrapper h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.wrapper .input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: #fefaf1;
+  padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+  color: #fefaf1;
+}
+
+.input-box i {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.wrapper .remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin: -15px 0 15px;
+}
+
+.remember-forgot label {
+  display: flex;
+  justify-content: center;
+}
+
+.remember-forgot label input {
+  accent-color: #fefaf1;
+  margin-right: 3px;
+}
+
+.remember-forgot a {
+  color: #fefaf1;
+  text-decoration: none;
+}
+
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+
+.btn--form {
+  width: 100%;
+  height: 45px;
+  background-color: rgba(58, 23, 3, 0.427);
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fefaf1;
+  font-weight: 600;
+
+  transition: all 0.3s;
+}
+
+.btn--form:hover {
+  background-color: rgba(254, 250, 241, 0.881);
+  color: #3a1703;
+}
+
+.register {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+  margin: 20px 0 15px;
+}
+
+.register p a {
+  color: #fefaf1;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.register p a:hover {
+  text-decoration: underline;
+}
