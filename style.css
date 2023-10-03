@@ -60,7 +60,7 @@
     url("background3.jpg");*/
 }
 
-.content-section:before {
+.content-section:after {
 		content: '';
 		position: absolute;top: 0;
 		right: 0;
